@@ -82,6 +82,13 @@ a {
     margin-bottom: 72px;
 }
 
+.icon-bg {
+    width: 264px;
+    height: 112px;
+    background-color: #F4F4FD;
+    border: solid 1px #8E8F99;
+}
+
 .second-txt {
     display: flex;
     gap: 24px;
@@ -168,8 +175,10 @@ ul {
 }
 
 .bg-clr {
-    background-color: #2E2F42; 
+    background-color: #2E2F42;
+    background: linear-gradient( #2E2F42B2 70%);
     padding: 188px 0 188px;
+
 }
 
 a:hover{
@@ -301,8 +310,17 @@ footer {
 
 .third-li {
     border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 3 * 24px) / 4)
+    width: calc((100% - 3 * 24px) / 4);
+    box-shadow: 8px 5px 10px rgba(0, 0, 0, 1);
 }
+
+.team-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+}
+
 
 .forth-section {
     padding: 120px 0 120px 0;
@@ -326,6 +344,11 @@ footer {
 .distance {
     width: calc((100% - 48px) / 3)
 }
+
+.distance:hover {
+    box-shadow: 8px 5px 10px rgba(0, 0, 0, 1);
+}
+
 
 .forth-txt_style {
     padding: 32px 16px;
