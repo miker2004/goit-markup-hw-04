@@ -273,6 +273,7 @@ footer {
     border-bottom: 1px solid #e7e9fc;
 }
 
+
 .header-nav {
     display: flex;
     align-items: center; 
@@ -363,4 +364,42 @@ footer {
 .footer-p {
     color: #F4F4FD;
     max-width: 264PX;
+}
+
+.social-media {
+    width: 208px;
+}
+
+.social-p {
+    color: #ffffff;
+    size: 16px;
+    line-height: 24px;
+}
+
+.box {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #4D5AE5;
+    
+    transform: translateY(100%);
+    transition: transform 350ms ease-in-out;
+}
+
+.overlay-txt {
+    color: #F4F4FD;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+  }
+
+.box:hover .overlay {
+    transform: translateY(0);
 }
