@@ -82,12 +82,17 @@ a {
     margin-bottom: 72px;
 }
 
-.icon-bg {
-    width: 264px;
-    height: 112px;
+.icons-display {
     background-color: #F4F4FD;
     border: solid 1px #8E8F99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    border-radius: 4px;
+    margin-bottom: 8px;    
 }
+
 
 .second-txt {
     display: flex;
@@ -176,9 +181,15 @@ ul {
 
 .bg-clr {
     background-color: #2E2F42;
-    background: linear-gradient( #2E2F42B2 70%);
     padding: 188px 0 188px;
+}
 
+.bg-clr_first {
+    background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)) url("../images/office.jpg");
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 a:hover{
@@ -242,6 +253,7 @@ button {
     border: none;
     display: block;
     margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 button:hover {
