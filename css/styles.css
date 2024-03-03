@@ -66,13 +66,13 @@ a {
 .nav-list {
     padding: 24px 0 24px;
     position: relative;
-    color: #404bbf;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: black;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-list:hover::before {
     color: #404bbf;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-list:hover:after{
@@ -307,6 +307,7 @@ a:active {
     letter-spacing: 0.02em;
     line-height: 1.5;
     font-style: normal;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 button { 
@@ -434,7 +435,8 @@ footer {
 }
 
 .distance {
-    width: calc((100% - 48px) / 3)
+    width: calc((100% - 48px) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .distance:hover {
@@ -531,6 +533,6 @@ footer {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-.box:hover .overlay {
+.distance:hover .overlay {
     transform: translateY(0);
 }
