@@ -204,12 +204,13 @@ a {
 }
 
 .social-team {
+    display: flex;
+    align-content:center;
     width: 100%;
     height: 100%;
     background-color: #4d5ae5;
     border-radius: 50%;
-    display: flex;
-    align-content:center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-team:hover {
@@ -256,7 +257,7 @@ ul {
 
 .bg-clr {
     background-color: #2E2F42;
-    padding: 188px 0 188px;
+    /* padding: 188px 0 188px; */
 }
 
 .bg-clr_first {
@@ -401,9 +402,9 @@ footer {
 }
 
 .third-li {
-    border-radius:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius:  0px 0px 4px 4px;
     width: calc((100% - 3 * 24px) / 4);
-    box-shadow: 0px 1px 6px 0px #2E2F4214;
+    box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-icon {
@@ -438,7 +439,8 @@ footer {
 }
 
 .distance:hover {
-    box-shadow: 0px 1px 6px 0px #2E2F4214;
+    box-shadow: 0px 2px 1px 0px #2E2F4214, 0px 1px 1px 0px #2E2F4229, 0px 1px 6px 0px #2E2F4214;
+
 }
 
 
@@ -452,6 +454,7 @@ footer {
     padding: 100px 0 100px;
     display: flex;
     align-items: baseline;
+    
 }
 
 .footer-p {
@@ -465,18 +468,45 @@ footer {
 
 
 .social-p {
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.002em;
+    letter-spacing: 0.02em;
     color: #ffffff;
     margin-bottom: 16px;
 }
 
 .social-media {
+    display: flex;
+    gap: 16px;
+}
+
+.foot-social {
     width: 40px;
     height: 40px;
+}
 
+.foot-social_li {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.foot-social_li:hover {
+    background-color:  #31d0aa;
+}
+
+.foot-social_li:focus {
+    background-color:  #31d0aa;
+}
+
+.foot-svg {
+    fill: #F4F4FD;
 }
 
 .box {
@@ -494,7 +524,7 @@ footer {
     color: #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.002em;
+    letter-spacing: 0.02em;
     height: 100%; 
     padding: 40px 32px;
     
