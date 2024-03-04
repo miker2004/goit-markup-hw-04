@@ -199,7 +199,6 @@ a {
 .team-li {
     width: 40px;
     height: 40px;
-
 }
 
 .social-team {
@@ -480,6 +479,7 @@ footer {
 
 .social-media {
     display: flex;
+    justify-content: center;
     gap: 16px;
 }
 
