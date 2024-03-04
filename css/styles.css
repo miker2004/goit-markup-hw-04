@@ -486,9 +486,6 @@ footer {
 .foot-social {
     width: 40px;
     height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .foot-social_li {
@@ -515,6 +512,9 @@ footer {
 }
 
 .foot-svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     fill: #F4F4FD;
 }
 
