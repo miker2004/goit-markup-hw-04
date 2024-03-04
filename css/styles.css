@@ -204,7 +204,8 @@ a {
 
 .social-team {
     display: flex;
-    align-content:center;
+    justify-content: center;
+    align-items:center;
     width: 100%;
     height: 100%;
     background-color: #4d5ae5;
@@ -229,6 +230,7 @@ a {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .list-items {
@@ -452,7 +454,6 @@ footer {
 }
 
 .foot-section {
-    padding: 100px 0 100px;
     display: flex;
     align-items: baseline;
     
@@ -507,6 +508,9 @@ footer {
 }
 
 .foot-svg {
+    display: flex;
+    justify-content: center;
+    align-items:center;
     fill: #F4F4FD;
 }
 
